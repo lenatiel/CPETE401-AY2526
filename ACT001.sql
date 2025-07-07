@@ -17,12 +17,7 @@ CREATE TABLE books (
 	book_title VARCHAR(100),
 	isbn VARCHAR(100),
 	publication_date DATE,
-	price DECIMAL (10, 2),
-	FOREIGN KEY (book_id) REFERENCES publishers(publisher_id) ON DELETE SET NULL
-);
-
-CREATE TABLE authors_books (
-	FOREIGN KEY 
+	price DECIMAL (10, 2)
 );
 
 
